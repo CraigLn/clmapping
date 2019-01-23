@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5225EED21F79A0A00D32A22 /* DeviceLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225EEC21F79A0A00D32A22 /* DeviceLocationService.swift */; };
+		A5225EF221F831E600D32A22 /* GeocodingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225EF121F831E600D32A22 /* GeocodingService.swift */; };
+		A5225EF721F8500900D32A22 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5225EF521F8500900D32A22 /* RealmSwift.framework */; };
+		A5225EF821F8500900D32A22 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5225EF621F8500900D32A22 /* Realm.framework */; };
+		A5225EFC21F8512700D32A22 /* RMLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225EFB21F8512700D32A22 /* RMLocation.swift */; };
+		A5225EFE21F8513400D32A22 /* RMPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225EFD21F8513400D32A22 /* RMPlacemark.swift */; };
+		A5225F0021F851BB00D32A22 /* RealmReprentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225EFF21F851BB00D32A22 /* RealmReprentable.swift */; };
+		A5225F0221F85B5300D32A22 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F0121F85B5300D32A22 /* DatabaseService.swift */; };
+		A5225F0421F8662000D32A22 /* CLLocation+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F0321F8662000D32A22 /* CLLocation+Ext.swift */; };
+		A5225F0621F8663000D32A22 /* CLPlacemark+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F0521F8663000D32A22 /* CLPlacemark+Ext.swift */; };
+		A5225F0821F866D800D32A22 /* CLError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F0721F866D800D32A22 /* CLError+Ext.swift */; };
+		A5225F0B21F8692B00D32A22 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F0A21F8692B00D32A22 /* MapViewModel.swift */; };
+		A5225F1321F891EC00D32A22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5225F1221F891EC00D32A22 /* Assets.xcassets */; };
+		A5225F1921F8BED700D32A22 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F1821F8BED700D32A22 /* LocationTests.swift */; };
+		A5225F1C21F8C31000D32A22 /* PlacemarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F1B21F8C31000D32A22 /* PlacemarkTests.swift */; };
+		A5225F1E21F8CBD200D32A22 /* CLLocation+ExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F1D21F8CBD200D32A22 /* CLLocation+ExtTests.swift */; };
+		A5225F2021F8CFED00D32A22 /* CLPlacemark+ExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F1F21F8CFED00D32A22 /* CLPlacemark+ExtTests.swift */; };
+		A5225F2221F8D44C00D32A22 /* CLError+ExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5225F2121F8D44C00D32A22 /* CLError+ExtTests.swift */; };
 		A58F083B21F64DB90075742B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F083A21F64DB90075742B /* AppDelegate.swift */; };
-		A58F083D21F64DB90075742B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F083C21F64DB90075742B /* ViewController.swift */; };
-		A58F084021F64DB90075742B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58F083E21F64DB90075742B /* Main.storyboard */; };
-		A58F084221F64DBB0075742B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58F084121F64DBB0075742B /* Assets.xcassets */; };
+		A58F083D21F64DB90075742B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F083C21F64DB90075742B /* MapViewController.swift */; };
+		A58F084021F64DB90075742B /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58F083E21F64DB90075742B /* Map.storyboard */; };
 		A58F084521F64DBB0075742B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58F084321F64DBB0075742B /* LaunchScreen.storyboard */; };
-		A58F085021F64DBB0075742B /* clmappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F084F21F64DBB0075742B /* clmappingTests.swift */; };
+		A58F086721F678D40075742B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F086621F678D40075742B /* Location.swift */; };
+		A58F086A21F687B40075742B /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F086921F687B40075742B /* Placemark.swift */; };
+		A58F087121F68ED60075742B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F087021F68ED60075742B /* CoreLocation.framework */; };
+		A58F087321F68EDD0075742B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F087221F68EDD0075742B /* MapKit.framework */; };
+		A58F087521F68F030075742B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F087421F68F030075742B /* Foundation.framework */; };
+		A58F087721F68F260075742B /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F087621F68F260075742B /* Contacts.framework */; };
+		A58F089021F76E8D0075742B /* BaseConvertibleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F088F21F76E8D0075742B /* BaseConvertibleType.swift */; };
+		A58F089221F76ECD0075742B /* CoreLocationRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58F089121F76ECD0075742B /* CoreLocationRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +50,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5225EE421F77A3C00D32A22 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		A5225EE521F77A3C00D32A22 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		A5225EEC21F79A0A00D32A22 /* DeviceLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLocationService.swift; sourceTree = "<group>"; };
+		A5225EF121F831E600D32A22 /* GeocodingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingService.swift; sourceTree = "<group>"; };
+		A5225EF321F84E3E00D32A22 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		A5225EF521F8500900D32A22 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		A5225EF621F8500900D32A22 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		A5225EFB21F8512700D32A22 /* RMLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocation.swift; sourceTree = "<group>"; };
+		A5225EFD21F8513400D32A22 /* RMPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPlacemark.swift; sourceTree = "<group>"; };
+		A5225EFF21F851BB00D32A22 /* RealmReprentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmReprentable.swift; sourceTree = "<group>"; };
+		A5225F0121F85B5300D32A22 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		A5225F0321F8662000D32A22 /* CLLocation+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Ext.swift"; sourceTree = "<group>"; };
+		A5225F0521F8663000D32A22 /* CLPlacemark+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+Ext.swift"; sourceTree = "<group>"; };
+		A5225F0721F866D800D32A22 /* CLError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLError+Ext.swift"; sourceTree = "<group>"; };
+		A5225F0A21F8692B00D32A22 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		A5225F0C21F88B9700D32A22 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A5225F0E21F88C8A00D32A22 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A5225F1221F891EC00D32A22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5225F1821F8BED700D32A22 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
+		A5225F1B21F8C31000D32A22 /* PlacemarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkTests.swift; sourceTree = "<group>"; };
+		A5225F1D21F8CBD200D32A22 /* CLLocation+ExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+ExtTests.swift"; sourceTree = "<group>"; };
+		A5225F1F21F8CFED00D32A22 /* CLPlacemark+ExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlacemark+ExtTests.swift"; sourceTree = "<group>"; };
+		A5225F2121F8D44C00D32A22 /* CLError+ExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLError+ExtTests.swift"; sourceTree = "<group>"; };
 		A58F083721F64DB90075742B /* clmapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clmapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58F083A21F64DB90075742B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A58F083C21F64DB90075742B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A58F083F21F64DB90075742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A58F084121F64DBB0075742B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A58F083C21F64DB90075742B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A58F083F21F64DB90075742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Map.storyboard; sourceTree = "<group>"; };
 		A58F084421F64DBB0075742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A58F084621F64DBB0075742B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58F084B21F64DBB0075742B /* clmappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clmappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A58F084F21F64DBB0075742B /* clmappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clmappingTests.swift; sourceTree = "<group>"; };
 		A58F085121F64DBB0075742B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58F086621F678D40075742B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A58F086921F687B40075742B /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
+		A58F087021F68ED60075742B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A58F087221F68EDD0075742B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A58F087421F68F030075742B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A58F087621F68F260075742B /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		A58F088421F6DF880075742B /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		A58F088621F6DFEF0075742B /* Pulley.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pulley.framework; path = Carthage/Build/iOS/Pulley.framework; sourceTree = "<group>"; };
+		A58F088F21F76E8D0075742B /* BaseConvertibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConvertibleType.swift; sourceTree = "<group>"; };
+		A58F089121F76ECD0075742B /* CoreLocationRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +98,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5225EF721F8500900D32A22 /* RealmSwift.framework in Frameworks */,
+				A5225EF821F8500900D32A22 /* Realm.framework in Frameworks */,
+				A58F087721F68F260075742B /* Contacts.framework in Frameworks */,
+				A58F087521F68F030075742B /* Foundation.framework in Frameworks */,
+				A58F087321F68EDD0075742B /* MapKit.framework in Frameworks */,
+				A58F087121F68ED60075742B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +117,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5225EEB21F799FB00D32A22 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5225F0121F85B5300D32A22 /* DatabaseService.swift */,
+				A5225EEC21F79A0A00D32A22 /* DeviceLocationService.swift */,
+				A5225EF121F831E600D32A22 /* GeocodingService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5225EF921F850C800D32A22 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A58F088F21F76E8D0075742B /* BaseConvertibleType.swift */,
+				A58F086621F678D40075742B /* Location.swift */,
+				A58F086921F687B40075742B /* Placemark.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A5225EFA21F850E700D32A22 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				A5225EFF21F851BB00D32A22 /* RealmReprentable.swift */,
+				A5225EFB21F8512700D32A22 /* RMLocation.swift */,
+				A5225EFD21F8513400D32A22 /* RMPlacemark.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		A5225F0921F8690F00D32A22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A5225F0A21F8692B00D32A22 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5225F1421F8BE6B00D32A22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5225F1821F8BED700D32A22 /* LocationTests.swift */,
+				A5225F1B21F8C31000D32A22 /* PlacemarkTests.swift */,
+				A5225F1D21F8CBD200D32A22 /* CLLocation+ExtTests.swift */,
+				A5225F1F21F8CFED00D32A22 /* CLPlacemark+ExtTests.swift */,
+				A5225F2121F8D44C00D32A22 /* CLError+ExtTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5225F1521F8BE8300D32A22 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5225F1621F8BE8D00D32A22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5225F1721F8BE9700D32A22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A58F082E21F64DB90075742B = {
 			isa = PBXGroup;
 			children = (
+				A58F088421F6DF880075742B /* Cartfile */,
 				A58F083921F64DB90075742B /* clmapping */,
 				A58F084E21F64DBB0075742B /* clmappingTests */,
 				A58F083821F64DB90075742B /* Products */,
+				A58F085C21F65AEA0075742B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +212,13 @@
 			isa = PBXGroup;
 			children = (
 				A58F083A21F64DB90075742B /* AppDelegate.swift */,
-				A58F083C21F64DB90075742B /* ViewController.swift */,
-				A58F083E21F64DB90075742B /* Main.storyboard */,
-				A58F084121F64DBB0075742B /* Assets.xcassets */,
-				A58F084321F64DBB0075742B /* LaunchScreen.storyboard */,
+				A58F086821F682530075742B /* Models */,
+				A5225EEB21F799FB00D32A22 /* Services */,
+				A5225F0921F8690F00D32A22 /* ViewModels */,
+				A58F086421F677010075742B /* ViewControllers */,
 				A58F084621F64DBB0075742B /* Info.plist */,
+				A5225F1221F891EC00D32A22 /* Assets.xcassets */,
+				A58F084321F64DBB0075742B /* LaunchScreen.storyboard */,
 			);
 			path = clmapping;
 			sourceTree = "<group>";
@@ -90,10 +226,62 @@
 		A58F084E21F64DBB0075742B /* clmappingTests */ = {
 			isa = PBXGroup;
 			children = (
-				A58F084F21F64DBB0075742B /* clmappingTests.swift */,
+				A5225F1421F8BE6B00D32A22 /* Models */,
+				A5225F1521F8BE8300D32A22 /* Services */,
+				A5225F1621F8BE8D00D32A22 /* ViewModels */,
+				A5225F1721F8BE9700D32A22 /* ViewControllers */,
 				A58F085121F64DBB0075742B /* Info.plist */,
 			);
 			path = clmappingTests;
+			sourceTree = "<group>";
+		};
+		A58F085C21F65AEA0075742B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5225F0E21F88C8A00D32A22 /* AddressBookUI.framework */,
+				A5225F0C21F88B9700D32A22 /* AddressBook.framework */,
+				A5225EF621F8500900D32A22 /* Realm.framework */,
+				A5225EF521F8500900D32A22 /* RealmSwift.framework */,
+				A5225EF321F84E3E00D32A22 /* Cartfile.resolved */,
+				A5225EE521F77A3C00D32A22 /* RxCocoa.framework */,
+				A5225EE421F77A3C00D32A22 /* RxSwift.framework */,
+				A58F088621F6DFEF0075742B /* Pulley.framework */,
+				A58F087621F68F260075742B /* Contacts.framework */,
+				A58F087421F68F030075742B /* Foundation.framework */,
+				A58F087221F68EDD0075742B /* MapKit.framework */,
+				A58F087021F68ED60075742B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A58F086421F677010075742B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A58F083C21F64DB90075742B /* MapViewController.swift */,
+				A58F083E21F64DB90075742B /* Map.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A58F086821F682530075742B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5225EF921F850C800D32A22 /* Base */,
+				A58F086D21F68C820075742B /* CoreLocation */,
+				A5225EFA21F850E700D32A22 /* Realm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A58F086D21F68C820075742B /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				A58F089121F76ECD0075742B /* CoreLocationRepresentable.swift */,
+				A5225F0321F8662000D32A22 /* CLLocation+Ext.swift */,
+				A5225F0521F8663000D32A22 /* CLPlacemark+Ext.swift */,
+				A5225F0721F866D800D32A22 /* CLError+Ext.swift */,
+			);
+			path = CoreLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +294,7 @@
 				A58F083321F64DB90075742B /* Sources */,
 				A58F083421F64DB90075742B /* Frameworks */,
 				A58F083521F64DB90075742B /* Resources */,
+				A58F088821F6E1050075742B /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -146,6 +335,14 @@
 				TargetAttributes = {
 					A58F083621F64DB90075742B = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					A58F084A21F64DBB0075742B = {
 						CreatedOnToolsVersion = 10.1;
@@ -178,8 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58F084521F64DBB0075742B /* LaunchScreen.storyboard in Resources */,
-				A58F084221F64DBB0075742B /* Assets.xcassets in Resources */,
-				A58F084021F64DB90075742B /* Main.storyboard in Resources */,
+				A5225F1321F891EC00D32A22 /* Assets.xcassets in Resources */,
+				A58F084021F64DB90075742B /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +389,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A58F088821F6E1050075742B /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A58F083321F64DB90075742B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58F083D21F64DB90075742B /* ViewController.swift in Sources */,
+				A58F083D21F64DB90075742B /* MapViewController.swift in Sources */,
+				A5225F0821F866D800D32A22 /* CLError+Ext.swift in Sources */,
+				A5225EF221F831E600D32A22 /* GeocodingService.swift in Sources */,
+				A5225F0621F8663000D32A22 /* CLPlacemark+Ext.swift in Sources */,
+				A5225F0421F8662000D32A22 /* CLLocation+Ext.swift in Sources */,
+				A58F086721F678D40075742B /* Location.swift in Sources */,
+				A5225F0021F851BB00D32A22 /* RealmReprentable.swift in Sources */,
+				A5225EFE21F8513400D32A22 /* RMPlacemark.swift in Sources */,
+				A58F089021F76E8D0075742B /* BaseConvertibleType.swift in Sources */,
+				A5225EED21F79A0A00D32A22 /* DeviceLocationService.swift in Sources */,
 				A58F083B21F64DB90075742B /* AppDelegate.swift in Sources */,
+				A5225EFC21F8512700D32A22 /* RMLocation.swift in Sources */,
+				A5225F0B21F8692B00D32A22 /* MapViewModel.swift in Sources */,
+				A58F086A21F687B40075742B /* Placemark.swift in Sources */,
+				A58F089221F76ECD0075742B /* CoreLocationRepresentable.swift in Sources */,
+				A5225F0221F85B5300D32A22 /* DatabaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +442,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58F085021F64DBB0075742B /* clmappingTests.swift in Sources */,
+				A5225F1C21F8C31000D32A22 /* PlacemarkTests.swift in Sources */,
+				A5225F1921F8BED700D32A22 /* LocationTests.swift in Sources */,
+				A5225F1E21F8CBD200D32A22 /* CLLocation+ExtTests.swift in Sources */,
+				A5225F2221F8D44C00D32A22 /* CLError+ExtTests.swift in Sources */,
+				A5225F2021F8CFED00D32A22 /* CLPlacemark+ExtTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +461,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A58F083E21F64DB90075742B /* Main.storyboard */ = {
+		A58F083E21F64DB90075742B /* Map.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A58F083F21F64DB90075742B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Map.storyboard;
 			sourceTree = "<group>";
 		};
 		A58F084321F64DBB0075742B /* LaunchScreen.storyboard */ = {
@@ -362,6 +602,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWP6YYM4L9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = clmapping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +624,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWP6YYM4L9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = clmapping/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
